@@ -1,0 +1,58 @@
+.section {
+    font-family: Roboto;
+    color: var(--foreground);
+    background: var(--backgroundAlt);
+    padding: 9rem 3.5rem 9rem 3.5rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.75rem;
+    padding: 0rem 0rem .75rem 0rem;
+}
+
+:root {
+    --lotrHeroImage: url("http://localhost:8888/file/henry-xu-X-eekRFSieM-unsplash.jpg");
+    --heroImage: url("https://images.unsplash.com/photo-1486607303850-bc051a4ffad4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80");
+    --heroText: #faf4ed;
+    --heroGradOne: #23213698;
+    --heroGradTwo: #23213698;
+    --cardGrad: #23213699;
+    --background: #232136;
+    --backgroundAlt: #2a273f;
+    --foreground: #e0def4;
+    --foregroundAlt: #44415a;
+    --black: #191724;
+    --red: #eb6f92;
+    --green: #76a264;
+    --yellow: #f6c177;
+    --blue: #3e8fb0;
+    --magenta: #c4a7e7;
+    --cyan: #9ccfd8;
+    --orange: #ea9a97;
+
+    background: var(--backgroundAlt);
+}
+
+.lit {
+    --lotrHeroImage: url("http://localhost:8888/file/henry-xu-X-eekRFSieM-unsplash.jpg");
+    --heroImage: url("https://images.unsplash.com/photo-1523808579830-cc773591da54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2014&q=80");
+    --heroText: #faf4ed;
+    --heroGradOne: #dfdad995;
+    --heroGradTwo: #d7827e95;
+    --cardGrad: #23213699;
+    --background: #faf4ed;
+    --backgroundAlt: #fffaf3;
+    --foreground: #575279;
+    --foregroundAlt: #dfdad9;
+    --black: #23213699;
+    --red: #b4637a;
+    --green: #76a264;
+    --yellow: #ea9d34;
+    --blue: #286983;
+    --magenta: #907aa9;
+    --cyan: #56949f;
+    --orange: #d7827e;
+
+    background: var(--backgroundAlt);
+}
