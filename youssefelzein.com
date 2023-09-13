@@ -17,7 +17,7 @@ server {
             proxy_pass http://localhost:8888;
         }
 
-        location /file {
+        location /static {
             proxy_pass http://localhost:8888;
         }
 }
