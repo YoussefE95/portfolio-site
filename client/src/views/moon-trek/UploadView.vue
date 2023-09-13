@@ -80,7 +80,7 @@ const imageSubmitted = async () => {
     }
 
     // Convert the local time stamp to UTC
-    const convert = await axios.get('http://localhost:8888/api/timezone/toUtc', {
+    const convert = await axios.get('https://www.YoussefElzein.com/api/timezone/toUtc', {
         params: {
             latitude: imageData.latitude,
             longitude: imageData.longitude,

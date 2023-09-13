@@ -11,7 +11,7 @@ const moon = new THREE.Mesh(
     new THREE.SphereGeometry(1.737, 30, 30),
     new THREE.MeshPhongMaterial({
         map: new THREE.TextureLoader().load(
-            'http://www.YoussefElzein.com/static/assets/textures/moon-1k.jpg'
+            'https://www.YoussefElzein.com/static/assets/textures/moon-1k.jpg'
         ),
         shininess: 0
     })

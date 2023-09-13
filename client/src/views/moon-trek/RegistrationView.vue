@@ -8,9 +8,9 @@ let algorithm = ref('SURF')
 // Returns the URL to the given processed image type
 const getUrl = (type) => {
     if (type === 'resized') {
-        return `http://localhost:8888/static/processed/${type}-${data.relativeImageName}`
+        return `https://localhost:8888/static/processed/${type}-${data.relativeImageName}`
     } else {
-        return `http://localhost:8888/static/processed/${type}-${algorithm.value}-${data.relativeImageName}`
+        return `https://localhost:8888/static/processed/${type}-${algorithm.value}-${data.relativeImageName}`
     }
 }
 </script>

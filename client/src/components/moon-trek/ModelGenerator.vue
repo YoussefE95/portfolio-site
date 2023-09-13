@@ -56,7 +56,7 @@ const earth = new THREE.Mesh(
     new THREE.SphereGeometry(6.371, 30, 30),
     new THREE.MeshPhongMaterial({
         map: new THREE.TextureLoader().load(
-            'http://www.YoussefElzein.com/static/assets/textures/earth.jpg'
+            'https://www.YoussefElzein.com/static/assets/textures/earth.jpg'
         ),
         shininess: 0
     })
@@ -65,7 +65,7 @@ const moon = new THREE.Mesh(
     new THREE.SphereGeometry(1.737, 30, 30),
     new THREE.MeshPhongMaterial({
         map: new THREE.TextureLoader().load(
-            'http://www.YoussefElzein.com/static/assets/textures/moon-2k.jpg'
+            'https://www.YoussefElzein.com/static/assets/textures/moon-2k.jpg'
         ),
         shininess: 0
     })
@@ -74,7 +74,7 @@ const moonLayer = new THREE.Mesh(
     new THREE.SphereGeometry(1.737, 30, 30),
     new THREE.MeshBasicMaterial({
         map: new THREE.TextureLoader().load(
-            'http://www.YoussefElzein.com/static/assets/textures/overlay.png'
+            'https://www.YoussefElzein.com/static/assets/textures/overlay.png'
         )
     })
 )
@@ -123,7 +123,7 @@ const formattedDate = () => {
 
 // Updates positions
 const getPositions = async () => {
-    const positionSearch = await axios.get('http://www.YoussefElzein.com/api/positions', {
+    const positionSearch = await axios.get('https://www.YoussefElzein.com/api/positions', {
         params: {
             latitude: data.latitude,
             longitude: data.longitude,
@@ -360,7 +360,7 @@ onMounted(async () => {
         formData.append('images', await toFile(data.images.layer.src, 'layerImage', 'image/png'))
 
         // Send all to registration endpoint
-        const response = await axios.post('http://www.YoussefElzein.com/api/registration/performAll', formData)
+        const response = await axios.post('https://www.YoussefElzein.com/api/registration/performAll', formData)
         const { status, relativeImageName } = response.data
 
         console.log(status, relativeImageName)
