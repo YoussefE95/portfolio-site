@@ -2,13 +2,9 @@
     import axios from 'axios';
     import { onMounted, ref } from 'vue';
     import { lotrMovies } from '../components/store.js';
-    import ReturnHome from '../components/ReturnHome.vue';
     import Hero from '../components/lotr/Hero.vue';
     import Movies from '../components/lotr/Movies.vue';
     import Characters from '../components/lotr/Characters.vue';
-    let selected = {
-        
-    };
 
     let view = ref({
         selected: 'character',
@@ -45,7 +41,6 @@
 
 <template>
     <main>
-        <ReturnHome />
         <Hero />
         <div class='columns is-centered'>
             <div class='column has-text-centered'>
@@ -55,7 +50,7 @@
             </div>
         </div>
         <Characters v-if='view.selected === "character"' />
-        <Movies v-else='view.selected === "movie"' />
+        <Movies v-else-if='view.selected === "movie"' />
     </main>
 </template>
 

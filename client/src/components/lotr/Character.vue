@@ -76,7 +76,9 @@
              <div class='movie'>
                 {{ movie }}
             </div>
-            <input class='button' value='new quote' @click='newQuote()'/>
+            <button class='button' @click='newQuote()'>
+                new quote
+            </button>
         </div>
     </div>
 </template>

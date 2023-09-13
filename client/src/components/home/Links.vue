@@ -9,14 +9,14 @@
         </div>
         <div class='columns is-centered'>
             <div class='column has-text-centered'>
-                <a href='https://www.YoussefElzein.com/file/Resume.pdf'>
+                <a href='http://www.YoussefElzein.com/static/Resume.pdf'>
                     <i id='icon'
                        class='fa-solid fa-file-invoice'
                        data-aos='fade-up-right'
                        data-aos-duration='1200'>
                     </i>
                 </a>
-                <a href='https://www.YoussefElzein.com/file/BA_eDiploma.pdf'>
+                <a href='http://www.YoussefElzein.com/static/BA_eDiploma.pdf'>
                     <i
                        class='fa-solid fa-graduation-cap'
                        data-aos='fade-up'

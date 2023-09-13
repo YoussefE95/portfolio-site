@@ -1,21 +1,21 @@
 {
     "moonTrek": {
         "title": "Moon Trek",
-        "thumbnail": "url(https://www.YoussefElzein.com/file/mike-petrucci-uIf6H1or1nE-unsplash.jpg)",
+        "thumbnail": "url(http://www.YoussefElzein.com/static/mike-petrucci-uIf6H1or1nE-unsplash.jpg)",
         "description": "Upload your pictures of the Moon and overlay data collected by Nasa/JPL on top of your image",
-        "demoLink": "/", 
-        "gitLink": "https://github.com/YoussefE95/Moon-Trek"
+        "demoLink": "/moon-trek", 
+        "gitLink": "https://github.com/YoussefE95/Moon-Trek-CSULA"
     },
     "middleEarthInfo": {
         "title": "Middle Earth Info",
-        "thumbnail": "url(https://www.YoussefElzein.com/file/nate-johnston-2_q_J2_J_DQ-unsplash.jpg)",
+        "thumbnail": "url(http://www.YoussefElzein.com/static/nate-johnston-2_q_J2_J_DQ-unsplash.jpg)",
         "description": "Get information about Lord of the Rings/Hobbit movies and all the characters which made appearances in those movies",
         "demoLink": "/lotr",
         "gitLink": "https://github.com/YoussefE95/Middle-Earth-Info"
     },
     "portfolioSite": {
         "title": "Portfolio Site",
-        "thumbnail": "url(https://www.YoussefElzein.com/file/trnava-university-BEEyeib-am8-unsplash.jpg)",
+        "thumbnail": "url(http://www.YoussefElzein.com/static/trnava-university-BEEyeib-am8-unsplash.jpg)",
         "description": "A web based portfolio made with VueJs & ExpressJs",
         "demoLink": "/",
         "gitLink": "https://github.com/YoussefE95/Portfolio-Site"

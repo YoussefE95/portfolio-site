@@ -10,7 +10,7 @@
         <div class='columns is-centered is-vcentered'>
             <div class='column has-text-centered is-5-tablet is-4-desktop is-3-fullhd'>
                 <img class='selfie' alt='selfie'
-                     src='https://www.YoussefElzein.com/file/moon-trek-poster.jpg'
+                     src='http://www.YoussefElzein.com/static/moon-trek-poster.jpg'
                      data-aos='fade-right' data-aos-duration='1200'
                 />
             </div>

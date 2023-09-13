@@ -12,7 +12,7 @@
 }
 
 :root {
-    --lotrHeroImage: url("http://localhost:8888/file/henry-xu-X-eekRFSieM-unsplash.jpg");
+    --lotrHeroImage: url("http://www.YoussefElzein.com/static/henry-xu-X-eekRFSieM-unsplash.jpg");
     --heroImage: url("https://images.unsplash.com/photo-1486607303850-bc051a4ffad4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80");
     --heroText: #faf4ed;
     --heroGradOne: #23213698;
@@ -35,7 +35,7 @@
 }
 
 .lit {
-    --lotrHeroImage: url("http://localhost:8888/file/henry-xu-X-eekRFSieM-unsplash.jpg");
+    --lotrHeroImage: url("http://www.YoussefElzein.com/static/henry-xu-X-eekRFSieM-unsplash.jpg");
     --heroImage: url("https://images.unsplash.com/photo-1523808579830-cc773591da54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2014&q=80");
     --heroText: #faf4ed;
     --heroGradOne: #dfdad995;

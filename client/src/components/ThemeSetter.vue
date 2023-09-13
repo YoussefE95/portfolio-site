@@ -11,16 +11,9 @@
 </template>
 
 <style scoped>
-    .theme-setter {
-        position: relative;
-        z-index: 7;
-    }
-
     i {
-        position: fixed;
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding: .75rem;
-        right: 0;
         color: var(--foreground);
         background: transparent;
     }

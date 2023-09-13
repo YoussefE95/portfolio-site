@@ -1,12 +1,12 @@
 <script setup>
     import { RouterView } from 'vue-router';
     import { isLit } from './components/store.js';
-    import ThemeSetter from './components/ThemeSetter.vue';
+    import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
-    <ThemeSetter />
     <div :class='{ lit: isLit }'>
+        <NavBar />
         <RouterView />
     </div>
 </template>
