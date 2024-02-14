@@ -1,0 +1,55 @@
+.Rose-Pine {
+    --heroText: #e0def4;
+    --foreground: #e0def4;
+    --foregroundAlt: #908caa;
+    --background: #1f1d2e;
+    --backgroundAlt: #191724;
+    --red: #eb6f92;
+    --yellow: #f6c177;
+    --orange: #ebbcba;
+    --blue: #31748f;
+    --cyan: #9ccfd8;
+    --purple: #c4a7e7;
+}
+
+.Rose-Pine-Light {
+    --heroText: #e0def4;
+    --foreground: #575279;
+    --foregroundAlt: #797593;
+    --background: #fffaf3;
+    --backgroundAlt: #faf4ed;
+    --red: #b4637a;
+    --yellow: #ea9d34;
+    --orange: #d7827e;
+    --blue: #286983;
+    --cyan: #56949f;
+    --purple: #907aa9;
+}
+
+.Gruvbox {
+    --heroText: #d4be98;
+    --foreground: #d4be98;
+    --foregroundAlt: #7c6f64;
+    --background: #282828;
+    --backgroundAlt: #1b1b1b;
+    --red: #ea6962;
+    --yellow: #d8a657;
+    --orange: #e78a4e;
+    --blue: #7daea3;
+    --cyan: #89b482;
+    --purple: #d3869b;
+}
+
+.Gruvbox-Light {
+    --heroText: #d4be98;
+    --foreground: #654735;
+    --foregroundAlt: #4f3829;
+    --background: #f2e5bc;
+    --backgroundAlt: #ebdbb2;
+    --red: #c14a4a;
+    --yellow: #b47109;
+    --orange: #c35e0a;
+    --blue: #45707a;
+    --cyan: #4c7a5d;
+    --purple: #945e80;
+}

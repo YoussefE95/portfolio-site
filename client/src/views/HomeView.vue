@@ -1,8 +1,8 @@
 <script setup>
-    import Hero from '../components/home/Hero.vue';
-    import About from '../components/home/About.vue';
-    import Work from '../components/home/Work.vue';
-    import Links from '../components/home/Links.vue';
+import About from '../components/home/About.vue';
+import Hero from '../components/home/Hero.vue';
+import Links from '../components/home/Links.vue';
+import Work from '../components/home/Work.vue';
 </script>
 
 <template>
@@ -14,8 +14,14 @@
     </main>
 </template>
 
-<style scoped>
-    main {
-        min-height: 100vh;
-    }
+<style>
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 2.5rem;
+}
+
+.section {
+    padding: 8rem 1.25rem;
+}
 </style>

@@ -1,48 +1,45 @@
 <template>
-    <div class='hero'>
-        <div class='columns is-centered'>
-            <div class='column has-text-centered'>
-                <p class='hero-name'>
-                    Youssef Elzein
-                </p>
-            </div>
-        </div>
-        <div class='columns is-centered'>
-            <div class='column has-text-centered'>
-                <p class='hero-title'>
-                    A Software Engineer
-                </p>
-            </div>
-        </div>
+    <div class="text-center hero">
+        <p class="name">Youssef Elzein</p>
+        <p class="title">Software Engineer</p>
     </div>
 </template>
 
 <style scoped>
-    .hero {
-        background: linear-gradient(
-            135deg,
-            var(--heroGradOne),
-            var(--heroGradTwo)
-        ), var(--heroImage);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-        padding: 9rem 0rem 9rem 0rem;
-    }
+.name,
+.title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: var(--heroText);
+}
 
-    .hero-name {
-        font-family: Caveat, sans-serif;
-        font-weight: bold;
-        font-size: 5rem;
-        transform: rotate(-5deg);
-        color: var(--heroText);
-        margin-bottom: -1.5rem;
-    }
+.name {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 4rem;
+    transform: rotate(-4deg);
+}
 
-    .hero-title {
-        font-family: Roboto;
-        font-size: 2rem;
-        color: var(--heroText);
+.hero {
+    background: linear-gradient(
+        -45deg,
+        var(--purple),
+        var(--blue),
+        var(--orange)
+    );
+    background-size: 200% 200%;
+    animation: gradient 15s ease infinite;
+    padding: 10rem 0rem;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
     }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 </style>
