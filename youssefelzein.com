@@ -13,10 +13,6 @@ server {
                 try_files $uri $uri/ =404;
         }
 
-        location /api {
-            proxy_pass http://localhost:8888;
-        }
-
         location /static {
             proxy_pass http://localhost:8888;
         }

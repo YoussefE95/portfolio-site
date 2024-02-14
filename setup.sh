@@ -1,12 +1,9 @@
 sudo apt update && sudo apt upgrade
 sudo apt install ufw nodejs npm nginx certbot python3-certbot-nginx
 
-cd server/api/lotr/ && npm install
-cp sample.config.json config.json
-
-cd ../../ && npm install
-
+cd server && npm install
 cd ../client && npm install && npm run build
+
 sudo mkdir -p /var/www/youssefelzein.com/html
 sudo chmod -R 755 /var/www/youssefelzein.com
 sudo cp -r dist/* /var/www/youssefelzein.com/html/
