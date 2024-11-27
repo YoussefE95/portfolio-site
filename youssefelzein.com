@@ -1,19 +1,19 @@
 server {
-        listen 80;
-        listen [::]:80;
+    listen 80;
+    listen [::]:80;
 
-        root /var/www/youssefelzein.com/html;
+    root /var/www/youssefelzein.com/html;
 
-        error_page 404 /;
-        index index.html index.htm index.nginx-debian.html;
+    error_page 404 /;
+    index index.html index.htm index.nginx-debian.html;
 
-        server_name youssefelzein.com www.youssefelzein.com;
+    server_name youssefelzein.com www.youssefelzein.com;
 
-        location / {
-                try_files $uri $uri/ =404;
-        }
+    location / {
+            try_files $uri $uri/ =404;
+    }
 
-        location /static {
-            proxy_pass http://localhost:8888;
-        }
+    location /static {
+        proxy_pass http://localhost:8888;
+    }
 }

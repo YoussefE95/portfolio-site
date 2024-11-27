@@ -8,9 +8,9 @@ import Work from '../components/home/Work.vue';
 <template>
     <main>
         <Hero />
-        <About />
-        <Work />
         <Links />
+        <Work />
+        <!-- <About /> -->
     </main>
 </template>
 
