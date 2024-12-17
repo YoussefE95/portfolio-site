@@ -1,11 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
 import ThemeSetter from './components/ThemeSetter.vue';
-import { data } from './data.js';
+import { colors } from './data.js';
 </script>
 
 <template>
-    <div :class="data.currentTheme" class="main-container">
+    <div
+        class="main-container"
+        :class="colors.isLit ? colors.theme + '-Light' : colors.theme"
+    >
         <ThemeSetter />
         <RouterView />
     </div>

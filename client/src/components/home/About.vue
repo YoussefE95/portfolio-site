@@ -1,5 +1,5 @@
 <template>
-    <div class="section">
+    <div class="section" data-aos="fade-in" data-aos-duration="1500">
         <p class="text-center section-title">About Me</p>
         <div class="row align-items-center">
             <div
@@ -28,6 +28,10 @@
 </template>
 
 <style scoped>
+.section {
+    background: var(--backgroundAlt);
+}
+
 img {
     max-width: 65%;
     border-radius: 0.75rem;

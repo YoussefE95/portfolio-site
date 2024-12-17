@@ -1,39 +1,26 @@
 <script setup>
-import { reactive } from 'vue';
-import { data } from '../data.js';
+import { colors } from '../data.js';
 
-const themeInfo = reactive({
-    theme: 'Rose-Pine',
-    isDark: true,
-});
-
-const setClass = () => {
-    data.currentTheme = themeInfo.isDark
-        ? themeInfo.theme
-        : `${themeInfo.theme}-Light`;
-};
-
-// const changeTheme = () => {
-//     themeInfo.theme = themeInfo.theme === 'Rose-Pine' ? 'Gruvbox' : 'Rose-Pine';
-//     setClass();
-// };
-
-const changeMode = () => {
-    themeInfo.isDark = !themeInfo.isDark;
-    setClass();
+const changeTheme = () => {
+    if (colors.theme === 'Catppuccin') {
+        colors.theme = 'Gruvbox';
+    } else {
+        colors.theme = 'Catppuccin';
+    }
 };
 </script>
 
 <template>
     <div class="theme-setter-window">
         <i
-            @click="changeMode"
-            :class="themeInfo.isDark ? '' : 'lit'"
+            @click="colors.isLit = !colors.isLit"
+            :class="colors.isLit ? 'lit' : ''"
             class="fa-solid fa-lightbulb"
         ></i>
-        <!-- <span @click="changeTheme" class="theme-button">{{
-            themeInfo.theme
-        }}</span> -->
+        <i
+            @click="changeTheme"
+            i class="fa-solid fa-palette"
+        ></i>
     </div>
 </template>
 
@@ -47,9 +34,11 @@ const changeMode = () => {
     background: var(--background);
 }
 
-.fa-lightbulb {
+.fa-lightbulb,
+.fa-palette {
     font-size: 2rem;
     color: var(--foregroundAlt);
+    margin: 0rem .25rem;
 }
 
 .lit {

@@ -1,5 +1,6 @@
 import { reactive } from 'vue';
 
-export const data = reactive({
-    currentTheme: 'Rose-Pine',
+export const colors = reactive({
+    theme: 'Catppuccin',
+    isLit: false
 });

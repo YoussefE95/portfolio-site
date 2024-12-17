@@ -31,7 +31,7 @@
 
 <style scoped>
 i {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin: 0rem 0.75rem;
     color: var(--blue);
 }

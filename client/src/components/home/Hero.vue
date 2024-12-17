@@ -23,8 +23,7 @@
     background: linear-gradient(
         -45deg,
         var(--purple),
-        var(--blue),
-        var(--orange)
+        var(--blue)
     );
     background-size: 200% 200%;
     animation: gradient 15s ease infinite;

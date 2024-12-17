@@ -1,5 +1,6 @@
 <script setup>
 import About from '../components/home/About.vue';
+import Environment from '../components/home/Environment.vue';
 import Hero from '../components/home/Hero.vue';
 import Links from '../components/home/Links.vue';
 import Work from '../components/home/Work.vue';
@@ -10,6 +11,7 @@ import Work from '../components/home/Work.vue';
         <Hero />
         <Links />
         <Work />
+        <Environment />
         <!-- <About /> -->
     </main>
 </template>
