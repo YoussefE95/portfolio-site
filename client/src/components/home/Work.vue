@@ -14,7 +14,7 @@
                         top of your images of the Moon taken with a telescope
                     </p>
                     <a
-                        href="https://github.com/YoussefE95/Moon-Trek-CSULA"
+                        href="https://github.com/YoussefE95/Moon-Trek-JPL-Horizon"
                         target="_blank"
                         class="card-link"
                         >Github</a
