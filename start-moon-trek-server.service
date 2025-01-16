@@ -1,0 +1,15 @@
+[Unit]
+Description="Express Server for Moon-Trek"
+
+[Service]
+ExecStart=/usr/bin/node server.js
+WorkingDirectory=/root/moon-trek-jpl-horizon/server/
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=MoonTrekServer
+Environment=NODE_ENV=production PORT=8890
+
+[Install]
+WantedBy=multi-user.target
